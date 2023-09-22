@@ -6,13 +6,13 @@
 }
 
 body,html {
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
   width: 100%;
   /* max-width: 750px;
   min-width: 480px; */
   background-color: #212121;
-  height: 100vh;
+  height: 80vh;
 }
 
 .lastResult {
@@ -35,6 +35,12 @@ button {
   border-style: none;
   margin-top: 30px;
   /* margin-left: 50px; */
+}
+.endgame{
+  width: fit-content;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 8vw;
 }
 
 #subt {
@@ -77,7 +83,7 @@ button {
   box-sizing: border-box;
   text-align: center;
   width: 450px;
-  height: 550px;
+  height: 650px;
   background-color: #474747;
   color: #fff;
   font-size: 25px;
@@ -93,7 +99,9 @@ h1 {
 p {
   font-size: 16px;
   text-align: center;
+  margin: 12px 0;
 }
+
 .resultParas{
-  margin-top: 20px;
+  margin-top: 30px;
 }

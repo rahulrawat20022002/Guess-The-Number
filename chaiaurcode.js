@@ -70,6 +70,7 @@ function endgame() {
 
   para.classList.add('endgame');
   para.textContent = 'Click here for a New Game';
+  para.style.backgroundColor="green"
   resultParas.appendChild(para);
   console.log('endgame');
   newgame();
@@ -79,7 +80,7 @@ function newgame() {
     lowOrHi.innerHTML=""
     console.log('clicked');
     guessField.removeAttribute('disabled');
-    // subt.disabled = false;
+    subt.disabled = false;
     random = parseInt(Math.random() * 100 + 1);
     console.log('after new Game ' + random);
     prev = [];
